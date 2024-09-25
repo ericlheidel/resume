@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.test {
+  border: 2.5px solid red;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #002b36;
+  --foreground: #d1d5db;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #002b36;
     --foreground: #ededed;
   }
 }
