@@ -29,6 +29,11 @@ export default function Resume() {
           unoptimized
         />
       </div>
+      <footer className="mt-2">
+        <p className="text-center">Created by Eric Heidel, 2024</p>
+        <p className="mt-2 text-center">Created with NextJS</p>
+        <p className="mt-2 text-center">Styled with TailwindCSS</p>
+      </footer>
     </div>
   )
 }
