@@ -6,8 +6,10 @@ export default function Resume() {
   return (
     <div>
       <div className="flex justify-center p-6 text-[#1BFFFF] text-3xl text-center font-semibold">
-        <FaHome size={30} color="aqua" />
-        <div className="ml-4">
+        <Link href="https://www.eheidel.com">
+          <FaHome size={30} color="aqua" />
+        </Link>
+        <div className="ml-2">
           <Link href="https://www.eheidel.com">Home</Link>
         </div>
       </div>
